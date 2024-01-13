@@ -1,3 +1,4 @@
+Begin
 build: libstarknet_crypto.a
 	@zig build
 
@@ -23,3 +24,4 @@ clean:
 	@rm -f src/math/crypto/starknet_crypto/libstarknet_crypto.a
 	@rm -rf zig-cache
 	@rm -rf zig-out
+End
